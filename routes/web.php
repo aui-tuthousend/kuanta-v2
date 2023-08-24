@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// -----------------------> rehan <-----------------------------
+
+Route::get('/profile/{id}')->name('profile');
+Route::get('/allkpis');
+Route::get('/kpisrole/{role}')->name('kpisrole');
+
+
